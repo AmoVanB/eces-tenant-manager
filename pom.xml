@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>tenant-manager</artifactId>
-	<version>1.0.18</version>
+	<version>1.0.19-SNAPSHOT</version>
 
   <description>Tenant manager module introducing tenant, VM, and flow concepts on top of the routing library of the ECES framework</description>
   <url>https://github.com/AmoVanB/eces-tenant-manager</url>
