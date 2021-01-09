@@ -12,6 +12,15 @@
 	<artifactId>tenant-manager</artifactId>
 	<version>1.0.18</version>
 
+  <description>Tenant manager module introducing tenant, VM, and flow concepts on top of the routing library of the ECES framework</description>
+  <url>https://github.com/AmoVanB/eces-tenant-manager</url>
+
+  <scm>
+      <connection>scm:git:git://github.com/amovanb/eces-tenant-manager.git</connection>
+      <developerConnection>scm:git:ssh://github.com:amovanb/eces-tenant-manager.git</developerConnection>
+      <url>http://github.com/amovanb/eces-tenant-manager/tree/master</url>
+  </scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>de.tum.ei.lkn.eces</groupId>
@@ -33,7 +42,7 @@
 		<dependency>
 			<groupId>de.tum.ei.lkn.eces</groupId>
 			<artifactId>dnm</artifactId>
-			<version>2.0.1</version>
+			<version>2.0.2</version>
 		</dependency>
 		<dependency>
 			<groupId>de.tum.ei.lkn.eces</groupId>
